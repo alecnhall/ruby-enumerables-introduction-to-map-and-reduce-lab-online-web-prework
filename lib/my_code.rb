@@ -1,6 +1,6 @@
 def map_to_negativize(source_array)
  new = []
- i = 0 
+ i = 0
  while i < array.lenghth do
    new.push(source_array[i] * -1)
    i += 1
