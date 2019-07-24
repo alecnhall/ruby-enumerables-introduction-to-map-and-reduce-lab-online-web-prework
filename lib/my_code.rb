@@ -35,7 +35,12 @@ def map_to_square(source_array)
   return new
 end
 def reduce_to_total(source_array)
-  source_array.sum
+  i = 0
+  sum = 0 
+  while i < source_array.length do 
+    source_array[i] += sum
+  end 
+  return sum
 end
 def reduce_to_all_true(source_array)
   i = 0
