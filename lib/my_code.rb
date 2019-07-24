@@ -11,5 +11,11 @@ def map_to_square(source_array)
   source_array.map{ |i| i ** 2}
 end
 def reduce_to_total(source_array)
-  source_array.inject{|sum, i| sum + i}
+  source_array.inject { |sum, i| sum + i }
+end
+def reduce_to_all_true(source_array)
+
+end
+def reduce_to_any_true(source_array)
+
 end
