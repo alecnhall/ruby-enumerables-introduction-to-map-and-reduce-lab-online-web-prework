@@ -1,5 +1,11 @@
 def map_to_negativize(source_array)
- source_array.map{ |i| i * -1}
+ i = 0
+ new = []
+ while i < array.lenghth do
+   new.push(source_array[i] * -1)
+   i += 1
+ end
+ return new
 end
 def map_to_no_change(source_array)
   source_array.map { |i| i }
