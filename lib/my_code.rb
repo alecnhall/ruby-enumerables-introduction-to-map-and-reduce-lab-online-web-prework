@@ -8,7 +8,11 @@ def map_to_negativize(source_array)
  return new
 end
 def map_to_no_change(source_array)
-  source_array.map { |i| i }
+  i = 0
+  while i < source_array.length do
+    source_array[i]
+    i += 1
+  end
 end
 def map_to_double(source_array)
   source_array.map{ |i| i * 2}
