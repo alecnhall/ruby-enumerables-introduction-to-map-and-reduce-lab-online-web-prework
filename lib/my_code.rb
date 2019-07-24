@@ -14,7 +14,7 @@ def reduce_to_total(source_array)
   source_array.reduce(0,:+) { |sum, n | sum + n }
 end
 def reduce_to_all_true(source_array)
-  source_array.reduce { | true, i | true }
+  source_array.reduce { | true, i | true == i}
 end
 def reduce_to_any_true(source_array)
   source_array.reduce { }
